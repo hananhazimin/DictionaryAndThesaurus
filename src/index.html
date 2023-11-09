@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary and Thesaurus</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src= "fetchApi.js"></script>
+</head> 
+<body>
+
+    <div class="logo-par">
+        <a href="homepage.html">
+            <h2>DICTIONARY AND THESAURUS</h2>
+        </a> 
+    </div>
+
+    <header> 
+        <nav> 
+            <ul></ul>
+                <li><a href="homepage.html">Home</a></li> 
+                <li><a href="index.html">Dictionary</a></li> 
+                <li><a href="word.html">Word of The Day</a></li> 
+            </ul> 
+        </nav>    
+    </header> 
+
+    <br><br>
+
+<center><div>
+    <label id="link">Enter a word:</label>
+    <br><br>
+    <input type="text" id="word" />
+    <br><br>
+    <button type="search" onclick="search()">Search</button>
+</div></center>
+
+<br>
+
+<div id="result">
+    <!-- Result will be displayed here -->
+</div>
+
+<br><br>
+
+<div>
+    <a id="link" href="word.html">Word of the day ?</a>
+</div>
+
+<br><br> 
+
+<div id="lookupButton"></div>
+
+<footer>
+    <p class="copyright">&copy; By Hanan Hazimin</p>
+</footer>
+    
+</body>
+</html>

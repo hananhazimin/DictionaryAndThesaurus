@@ -1,0 +1,106 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+      Arial, sans-serif;
+    margin: auto;
+    max-width: 100%;
+    padding: 20px;
+    background-image: url('background.jpg'); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+  }
+  
+  
+.mainWrapper{
+    margin: 25px;
+}
+
+header {
+    background-color: grey;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+ul { 
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+} 
+
+li { 
+  display: inline; 
+  margin-right: 20px;   
+} 
+
+a, h1, #label{
+  color: #fff;
+}
+
+footer { 
+  background-color: grey; 
+  color: #fff; 
+  text-align: center; 
+  padding: 10px 0; 
+}
+
+.form-group { 
+  margin: 10px; 
+} 
+
+.form-group label { 
+  font-weight: bold; 
+} 
+
+.form-control { 
+  width: 50%; 
+  padding: 5px; 
+  margin: 5px 0; 
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+  box-shadow: none; 
+  font-size: 16px; 
+} 
+
+.btn { 
+  background-color: #4d89c8; 
+  color: #fff; 
+  border: none; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  margin: 10px; 
+  border-radius: 3px; 
+} 
+
+#btnDelete { 
+  background-color: gray; 
+}
+
+#btnDelete:hover { 
+  background-color: #455ca0; 
+} 
+
+#btnCreate { 
+  background-color: gray; 
+}
+
+#btnCreate:hover { 
+  background-color: #455ca0; 
+} 
+
+#btnUpdate { 
+  background-color: gray; 
+}
+
+#btnUpdate:hover { 
+  background-color: #455ca0; 
+} 
+
+#btnRead { 
+  background-color: gray; 
+}
+
+#btnRead:hover { 
+  background-color: #455ca0; 
+} 
